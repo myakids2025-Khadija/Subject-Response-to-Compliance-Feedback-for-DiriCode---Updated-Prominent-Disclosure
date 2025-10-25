@@ -1,0 +1,21 @@
+To the Google Play Review Team,
+Thank you for your detailed feedback regarding our recent submission for the DiriCode application. We sincerely apologize for the non-compliant implementation of the prominent disclosure for the AccessibilityService API and other permissions. This is our first application, and we are learning the best practices for implementing these sensitive but essential features. We appreciate your guidance and have taken your feedback very seriously.
+Based on your review, we have made significant updates to our application to ensure we are fully compliant with the User Data policy and to provide a much clearer and more transparent experience for our users.
+Here is a summary of the changes we have implemented:
+1. Fully Compliant, Multi-Step Prominent Disclosure:
+We have completely redesigned our permission request flow. Instead of a single action, our "Start Protection" button now initiates a guided, step-by-step sequence. For each sensitive permission (AccessibilityService, Usage Access, Background Location), we now present a separate, non-dismissible AlertDialog.
+Each dialog:
+Clearly explains why the specific permission is essential for our parental control functionality (e.g., "The Accessibility Service is used only to detect and block apps that the parent has restricted").
+Provides a detailed description of what data is being accessed and explicitly states what is not being accessed (e.g., "We do not use this service to collect any personal data or read screen content").
+Requires an affirmative user action by providing two clear buttons: "Decline" (رفض) and "Accept and Continue" (قبول ومتابعة). The action to open the system settings is only performed after the user explicitly taps "Accept and Continue."
+2. Updated Video Demonstration:
+We have recorded a new video that clearly demonstrates this new, compliant user flow. The video shows the user being presented with the detailed dialog for the Accessibility Service, tapping "Accept and Continue," and only then being taken to the system settings to enable the service.
+Video Link: [Paste your new, unlisted YouTube video link here]
+3. Updated Store Listing Description:
+We have updated our app's full description in the main store listing to include the required declaration about our use of the AccessibilityService API, as per your policy.
+Our Commitment:
+As a new development team, we are fully committed to building a trustworthy and secure application for parents and families in Algeria. We understand the responsibility that comes with using sensitive permissions, and we are dedicated to being fully transparent with our users and compliant with all Google Play policies.
+We believe these comprehensive changes directly address all the issues raised in your review. We have worked diligently to implement a user consent flow that is clear, unambiguous, and respects the user's choice.
+Thank you again for your valuable feedback, which has helped us improve our application. We are ready to make any further adjustments necessary and look forward to your review of our updated submission.
+Sincerely,
+The DiriCode Development Team
