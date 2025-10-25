@@ -10,7 +10,7 @@ Provides a detailed description of what data is being accessed and explicitly st
 Requires an affirmative user action by providing two clear buttons: "Decline" (رفض) and "Accept and Continue" (قبول ومتابعة). The action to open the system settings is only performed after the user explicitly taps "Accept and Continue."
 2. Updated Video Demonstration:
 We have recorded a new video that clearly demonstrates this new, compliant user flow. The video shows the user being presented with the detailed dialog for the Accessibility Service, tapping "Accept and Continue," and only then being taken to the system settings to enable the service.
-Video Link: [Paste your new, unlisted YouTube video link here]
+Video Link: https://youtube.com/shorts/moj4shpMo94   -   https://youtube.com/shorts/hA4wpRhpsVA?feature=share
 3. Updated Store Listing Description:
 We have updated our app's full description in the main store listing to include the required declaration about our use of the AccessibilityService API, as per your policy.
 Our Commitment:
