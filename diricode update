@@ -1,5 +1,6 @@
 To the Google Play Review Team,
-Thank you for your detailed feedback regarding our recent submission for the DiriCode application. We sincerely apologize for the non-compliant implementation of the prominent disclosure for the AccessibilityService API and other permissions. This is our first application, and we are learning the best practices for implementing these sensitive but essential features. We appreciate your guidance and have taken your feedback very seriously.
+Thank you for your detailed feedback regarding our recent submission for the DiriCode application. We sincerely apologize for the non-compliant implementation of the prominent disclosure.
+As a new development team, this was our first major update where we introduced a new logo and version. In the process, we now understand that we overlooked the critical requirement to update our user consent flow to match the new, sensitive permissions our app requires. We take full responsibility for this oversight. Your feedback has been invaluable in helping us learn the correct process.
 Based on your review, we have made significant updates to our application to ensure we are fully compliant with the User Data policy and to provide a much clearer and more transparent experience for our users.
 Here is a summary of the changes we have implemented:
 1. Fully Compliant, Multi-Step Prominent Disclosure:
